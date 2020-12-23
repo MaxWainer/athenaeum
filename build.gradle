@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '6.1.0'
+}
+
+allprojects {
+
+    apply plugin: "java"
+    apply plugin: "maven-publish"
+    apply plugin: "base"
+    apply plugin: "maven"
+
+    repositories {
+        mavenCentral()
+        maven { url = "https://repo.codemc.org/repository/nms/" }
+    }
+
+    dependencies {
+        compileOnly("org.projectlombok:lombok:1.18.14")
+        annotationProcessor("org.projectlombok:lombok:1.18.14")
+    }
+
+}
+
+dependencies {
+    compileOnly("org.projectlombok:lombok:1.18.14")
+    annotationProcessor("org.projectlombok:lombok:1.18.14")
+}
