@@ -1,6 +1,6 @@
-package com.athenaeum;
+package com.athenaeum.bukkit;
 
-import com.athenaeum.plugin.AthenaeumPlugin;
+import com.athenaeum.bukkit.plugin.AthenaeumPlugin;
 import lombok.Getter;
 
 import java.io.File;

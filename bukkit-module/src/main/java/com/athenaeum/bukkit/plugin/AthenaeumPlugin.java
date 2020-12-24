@@ -1,6 +1,6 @@
-package com.athenaeum.plugin;
+package com.athenaeum.bukkit.plugin;
 
-import com.athenaeum.plugin.builder.IPlugin;
+import com.athenaeum.bukkit.plugin.builder.IPlugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public abstract class AthenaeumPlugin extends JavaPlugin implements IPlugin {

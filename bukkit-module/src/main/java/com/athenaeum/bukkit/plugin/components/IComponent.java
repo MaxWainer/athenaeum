@@ -1,4 +1,4 @@
-package com.athenaeum.plugin.components;
+package com.athenaeum.bukkit.plugin.components;
 
 public interface IComponent {
 
